@@ -1,0 +1,19 @@
+{
+  "include" : [ //포함될 파일 폴더들
+    "src/**/*.ts"
+  ],
+  "exclude" : [ // 제외될 대상들 -> 대표적으로 노드 모듈
+    "node_modules"
+  ], 
+  "compilerOptions" : {
+    "lib" : ["ES2015","dom"], //es5 라이브러리들을 불러옴
+    "module" : "es6", //commonjs
+    "rootDir" : "src", //루트가 될 폴더
+    "outDir" : "dist", //컴파일된 파일들이 들어갈 파일
+    "target" : "es5",
+    "sourceMap": true, // 소스코드를 브라우저에서 확인 가능
+    "removeComments": true, ///주석 삭제
+    "noImplicitAny" : true // 타입지정안하곳에 임의로 any 주는것을 막아줌
+
+  }
+}
