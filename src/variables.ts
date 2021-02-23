@@ -30,7 +30,7 @@ function outer2 () {
 
   for(let i = 0; i < 3; i++) {
     setTimeout(function() {
-      console.log(i);
+      console.log(i); //let 으로 찍으면 012 나온다! // var은 333나옴
     }, 100)
   }
 
