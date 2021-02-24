@@ -50,3 +50,8 @@ board[0].piece = {
     return true;
   }
 }
+
+/*
+정리 
+interface 는, 속성정의 또는 행위정의할때 사용한다
+*/
