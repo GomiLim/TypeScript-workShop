@@ -47,6 +47,6 @@ function createBoard () {
 const board = createBoard();
 board[0].piece = {
   move(from:Cell, to:Cell) {
-    return;
+    return true;
   }
 }

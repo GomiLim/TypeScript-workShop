@@ -23,7 +23,7 @@ function createBoard() {
 var board = createBoard();
 board[0].piece = {
     move: function (from, to) {
-        return;
+        return true;
     }
 };
 //# sourceMappingURL=interface.js.map
