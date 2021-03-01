@@ -1,14 +1,12 @@
 function add(x, y) {
     return x + y;
 }
-var result = add(1, 2);
-function buildUserInfo(name, email) {
-    if (name === void 0) { name = "-"; }
-    if (email === void 0) { email = ""; }
-    return { name: name, email: email };
+const result = add(1, 2);
+function buildUserInfo(name = "-", email = "") {
+    return { name, email };
 }
-var user1 = buildUserInfo();
-var add2 = function (a, b) { return a + b; };
+const user1 = buildUserInfo();
+const add2 = (a, b) => a + b;
 function store(type) {
     if (type === "과자") {
         return { a: "1.과자" };
@@ -20,5 +18,5 @@ function store(type) {
         throw new Error('unsupported type');
     }
 }
-var s = store('아이스크림');
+const s = store('아이스크림');
 //# sourceMappingURL=function.js.map

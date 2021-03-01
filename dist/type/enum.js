@@ -1,8 +1,8 @@
 var StarBuksGrade;
 (function (StarBuksGrade) {
-    StarBuksGrade["WELCOME"] = "WELCOME";
-    StarBuksGrade["GREEN"] = "GREEN";
-    StarBuksGrade["GOLD"] = "GOLD";
+    StarBuksGrade[StarBuksGrade["WELCOME"] = 0] = "WELCOME";
+    StarBuksGrade[StarBuksGrade["GREEN"] = 1] = "GREEN";
+    StarBuksGrade[StarBuksGrade["GOLD"] = 2] = "GOLD";
 })(StarBuksGrade || (StarBuksGrade = {}));
 function getDicound(v) {
     switch (v) {

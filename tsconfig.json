@@ -6,11 +6,11 @@
     "node_modules"
   ], 
   "compilerOptions" : {
-    "lib" : ["ES2015","dom"], //es5 라이브러리들을 불러옴
-    "module" : "es6", //commonjs
+    // "lib" : ["ES2015","dom"], //es5 라이브러리들을 불러옴
+    "module" : "commonjs", //commonjs (es5 기준)
     "rootDir" : "src", //루트가 될 폴더
     "outDir" : "dist", //컴파일된 파일들이 들어갈 파일
-    "target" : "es5",
+    "target" : "es6", //컴파일 대상
     "sourceMap": true, // 소스코드를 브라우저에서 확인 가능
     "removeComments": true, ///주석 삭제
     "noImplicitAny" : true // 타입지정안하곳에 임의로 any 주는것을 막아줌
