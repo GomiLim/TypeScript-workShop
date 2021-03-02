@@ -1,4 +1,4 @@
-function add(x:number, y:number):number {
+function add(x:number, y:number) :number {
   //          파라미터 타입          반환값 타입
   return x+y;
 }
